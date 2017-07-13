@@ -7,6 +7,7 @@
 #include "PositionReporter.generated.h"
 
 
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class C_ESCAPEROOM_API UPositionReporter : public UActorComponent
 {
