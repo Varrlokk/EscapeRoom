@@ -4,18 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "PositionReporter.generated.h"
-
+#include "OpenDoor.generated.h"
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class C_ESCAPEROOM_API UPositionReporter : public UActorComponent
+class C_ESCAPEROOM_API UOpenDoor : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
-	UPositionReporter();
+	UOpenDoor();
 
 protected:
 	// Called when the game starts
