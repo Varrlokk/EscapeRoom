@@ -10,7 +10,7 @@ UPositionReporter::UPositionReporter()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// Change for SourceTree
+	
 }
 
 
@@ -19,7 +19,8 @@ void UPositionReporter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
+	UE_LOG(LogTemp, Warning, TEXT("PositionReport reporting for duty on Bench!"));
+
 	
 }
 
@@ -29,6 +30,5 @@ void UPositionReporter::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
 }
 
